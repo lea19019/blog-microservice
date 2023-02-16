@@ -29,6 +29,7 @@ Configure **tsconfig.json** so that we have the following configuration:
 "moduleResolution": "node"
 "outDir": "./dist"
 ```
+You might also want to create your `src` folder right away, and add a `app.ts` file.
 
 Add this script to `scripts` in **package.json** to have `nodemon` run the app and watch for changes
 ```json
